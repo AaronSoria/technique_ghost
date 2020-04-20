@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>489</width>
-    <height>409</height>
+    <width>409</width>
+    <height>437</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,18 +19,18 @@
      <rect>
       <x>10</x>
       <y>40</y>
-      <width>361</width>
-      <height>41</height>
+      <width>271</width>
+      <height>31</height>
      </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="serchVideoButton">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>300</x>
       <y>40</y>
       <width>88</width>
-      <height>41</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -41,19 +41,19 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>120</y>
-      <width>361</width>
-      <height>41</height>
+      <y>110</y>
+      <width>271</width>
+      <height>31</height>
      </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="searchOutputFolder">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>120</y>
+      <x>300</x>
+      <y>110</y>
       <width>88</width>
-      <height>41</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -64,9 +64,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>320</y>
-      <width>471</width>
-      <height>51</height>
+      <y>374</y>
+      <width>381</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -77,8 +77,8 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>180</y>
-      <width>471</width>
+      <y>235</y>
+      <width>381</width>
       <height>121</height>
      </rect>
     </property>
@@ -86,7 +86,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>10</y>
       <width>91</width>
       <height>18</height>
@@ -99,14 +99,53 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>90</y>
+      <x>10</x>
+      <y>80</y>
       <width>171</width>
       <height>18</height>
      </rect>
     </property>
     <property name="text">
      <string>Ingrese Carpeta de Destino</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>161</y>
+      <width>171</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Factor de Fantasma</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>202</y>
+      <width>171</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Progreso</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ghostFactorEntry">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>156</y>
+      <width>250</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4</string>
     </property>
    </widget>
   </widget>
