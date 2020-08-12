@@ -1,5 +1,8 @@
 # technique_ghost
-paquetes:
+
+A Python tool that builds an average image from the frames of a video
+
+package:
 
 numpy==1.18.3
 
